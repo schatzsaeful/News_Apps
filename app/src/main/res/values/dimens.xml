@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="space_x0_half">@dimen/_4sdp</dimen>
+    <dimen name="space_x1">@dimen/_7sdp</dimen>
+    <dimen name="space_x1_half">@dimen/_10sdp</dimen>
+    <dimen name="space_x2">@dimen/_14sdp</dimen>
+    <dimen name="space_x2_half">@dimen/_18sdp</dimen>
+    <dimen name="space_x3">@dimen/_21sdp</dimen>
+    <dimen name="space_x3_half">@dimen/_25sdp</dimen>
+    <dimen name="space_x4">@dimen/_28sdp</dimen>
+    <dimen name="space_x4_half">@dimen/_32sdp</dimen>
+    <dimen name="space_x5">@dimen/_35sdp</dimen>
+    <dimen name="space_x5_half">@dimen/_39sdp</dimen>
+    <dimen name="space_x6">@dimen/_42sdp</dimen>
+    <dimen name="space_x6_half">@dimen/_44sdp</dimen>
+    <dimen name="space_x7">@dimen/_49sdp</dimen>
+    <dimen name="space_x7_half">@dimen/_53sdp</dimen>
+    <dimen name="space_x8">@dimen/_56sdp</dimen>
+    <dimen name="space_x8_half">@dimen/_60sdp</dimen>
+    <dimen name="space_x9">@dimen/_63sdp</dimen>
+    <dimen name="space_x9_half">@dimen/_67sdp</dimen>
+    <dimen name="space_x10">@dimen/_70sdp</dimen>
+
+    <!--Text Size-->
+    <dimen name="text_size_h1">32sp</dimen>
+    <dimen name="text_size_h2">28sp</dimen>
+    <dimen name="text_size_h3">24sp</dimen>
+    <dimen name="text_size_h4">20sp</dimen>
+    <dimen name="text_size_h5">18sp</dimen>
+    <dimen name="text_size_h6">16sp</dimen>
+    <dimen name="text_size_h7">15sp</dimen>
+    <dimen name="text_size_p">14sp</dimen>
+    <dimen name="text_size_s">12sp</dimen>
+    <dimen name="text_size_t">10sp</dimen>
+
+    <!--Special Size-->
+    <dimen name="text_size_title_login">54sp</dimen>
+    <dimen name="size_0dp">0dp</dimen>
+    <dimen name="size_1px">1px</dimen>
+    <dimen name="size_1dp">1dp</dimen>
+    <dimen name="size_2dp">2dp</dimen>
+</resources>

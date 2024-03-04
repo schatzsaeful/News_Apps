@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_everything">
+
+    <fragment
+        android:id="@+id/navigation_everything"
+        android:name="com.contoh.newsapps.presentation.main.everything.MainEverythingFragment"
+        android:label="Everything"
+        tools:layout="@layout/main_fragment_everything" >
+        <action
+            android:id="@+id/action_mainHomeFragment_to_mainFragmentDetail"
+            app:destination="@id/navigation_detail"
+            app:enterAnim="@anim/common_anim_slide_in_from_bottom"
+            app:exitAnim="@anim/common_anim_nothing"
+            app:popExitAnim="@anim/common_anim_slide_out_to_bottom" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_top_headline"
+        android:name="com.contoh.newsapps.presentation.main.topheadline.MainTopHeadlineFragment"
+        android:label="Top Headline"
+        tools:layout="@layout/main_fragment_top_headline" >
+        <action
+            android:id="@+id/action_mainHomeFragment_to_mainFragmentDetail"
+            app:destination="@id/navigation_detail"
+            app:enterAnim="@anim/common_anim_slide_in_from_bottom"
+            app:exitAnim="@anim/common_anim_nothing"
+            app:popExitAnim="@anim/common_anim_slide_out_to_bottom" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.contoh.newsapps.presentation.main.detail.MainDetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/main_fragment_detail" >
+        <argument
+            android:name="mavericks:arg"
+            app:argType="com.contoh.newsapps.presentation.main.detail.MainDetailArgs" />
+    </fragment>
+</navigation>

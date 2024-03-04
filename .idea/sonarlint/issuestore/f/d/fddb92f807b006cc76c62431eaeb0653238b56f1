@@ -1,0 +1,5 @@
+
+@kotlin:S63107"Avoid hardcoded dispatchers.(›ç®Æùÿÿÿÿ8Å“Ã¿à1
+;kotlin:S6310A"Avoid hardcoded dispatchers.(¡‡àÃ8Æ“Ã¿à1
+ukotlin:S63117"QRemove this dispatcher. It is pointless when used with only suspending functions.(›ç®Æùÿÿÿÿ8Ç“Ã¿à1
+pkotlin:S6311A"QRemove this dispatcher. It is pointless when used with only suspending functions.(¡‡àÃ8Ç“Ã¿à1

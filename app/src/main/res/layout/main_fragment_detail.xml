@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:paddingBottom="6dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_iv_item_news"
+            android:layout_width="0dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/main_tv_item_news_tags"
+            style="@style/NavyReguler10TextView"
+            android:layout_width="@dimen/size_0dp"
+            android:layout_marginHorizontal="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="#News"
+            android:textColor="@color/color_primary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_iv_item_news"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/main_tv_item_news_author"
+            style="@style/PrimaryBold20TextView"
+            android:layout_width="@dimen/size_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_tv_item_news_tags"
+            android:text="News - Saeful Husna" />
+
+        <TextView
+            android:id="@+id/main_tv_title_item_news_title"
+            style="@style/PrimaryBold20TextView"
+            android:layout_width="@dimen/size_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginHorizontal="12dp"
+            android:text="Title"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_tv_item_news_author" />
+
+        <TextView
+            android:id="@+id/main_tv_item_news_title"
+            style="@style/GrayRegular12TextView"
+            android:layout_width="@dimen/size_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:maxLines="12"
+            android:text="Moscow's Next European Target: Moldova..."
+            android:textColor="@color/text_color_secondary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_tv_title_item_news_title"
+            tools:ignore="SmallSp" />
+
+        <TextView
+            android:id="@+id/main_tv_title_item_news_content"
+            style="@style/PrimaryBold20TextView"
+            android:layout_width="@dimen/size_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginHorizontal="12dp"
+            android:text="Content"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_tv_item_news_title" />
+
+        <TextView
+            android:id="@+id/main_tv_item_news_content"
+            style="@style/GrayRegular12TextView"
+            android:layout_width="@dimen/size_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:maxLines="12"
+            android:text="Moscow's Next European Target: Moldova..."
+            android:textColor="@color/text_color_secondary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_tv_title_item_news_content"
+            tools:ignore="SmallSp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
